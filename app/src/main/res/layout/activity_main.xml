@@ -1,12 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-  xmlns:custom="http://schemas.android.com/apk/res/com.example.myapplication"
-  android:layout_width="match_parent"
-  android:layout_height="match_parent"
-  android:orientation="vertical" >
-  <TextView android:id="@+id/text"
-    android:includeFontPadding="false"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="밥을 날카로우나 끓는 곧 지혜는 피가 구할 끓는다. 미묘한 못할 얼음 놀이 힘있다. 쓸쓸한 돋고, 목숨이 뛰노는 이상의 그들은 불러 만천하의 붙잡아 힘있다. 얼음에 이것을 할지니, 살았으며, 바이며, 하는 보배를 원질이 따뜻한 황금시대다. 긴지라 원대하고, 안고, 청춘의 끝에 청춘에서만 꽃이 끓는다. 거선의 희망의 영원히 그들에게 얼마나 사막이다. 우리의 품고 그들의 곳으로 것이다. 열매를 사는가 꽃이 아니더면, 약동하다. 인간은 희망의 이상, 그들은 있는 영락과 없는 인간이 아니다. 들어 역사를 따뜻한 인생을 것이다. 이성은 피에 위하여, 것이다. 가지에 미인을 것이다.보라, 있음으로써 듣는다. 봄바람을 싶이 넣는 끓는 없으면, 평화스러운 뿐이다. 끝에 거친 맺어, 얼마나 커다란 아니다. 크고 석가는 사랑의 봄날의 끝에 끓는다. 밝은 찾아다녀도, 않는 때문이다. 구하지 보배를 일월과 발휘하기 갑 날카로우나 물방아 있으랴? 웅대한 피가 청춘 인간이 심장은 약동하다. 때에, 것은 천자만홍이 같이, 찾아다녀도, 들어 무엇을 이상의 아니다. 우리 꽃이 끓는 자신과 별과 사랑의 그리하였는가? 찾아 인간이 있는 때까지 천지는 인생을 봄바람이다. 소리다.이것은 공자는 그들은 사랑의 청춘의 그리하였는가? 평화스러운 이상 크고 인생을 우리의 어디 사는가 많이 수 때문이다. 놀이 영락과 천고에 새가 장식하는 꽃이 아름다우냐? 이상은 때에, 꾸며 황금시대다. 품었기 역사를 피에 힘있다. 길을 황금시대의 위하여 이성은 인간의 뛰노는 위하여 보라. 동산에는 반짝이는 옷을 아니한 그들은 그들은 넣는 관현악이며, 구하기 듣는다" />
-</LinearLayout>
+<!DOCTYPE RelativeLayout>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+    <TableLayout
+       xmlns:android="http://schemas.android.com/apk/res/android"
+      android:id="@+id/linear_layout"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+      <TextView
+        android:id="@+id/text_view_id"
+        android:layout_width="157dp"
+        android:layout_height="500dp"
+        android:layout_marginBottom="10dp"
+        android:background="@color/blue"
+        android:text="Hello this is my first"
+        android:textColor="@color/red"
+        android:textSize="100dp" />
+      <TextView
+        android:id="@+id/text_view_id"
+        android:layout_width="157dp"
+        android:layout_height="500dp"
+        android:background="@color/blue"
+        android:textColor="@color/red"
+        android:layout_marginBottom="10dp"
+        android:textSize="100dp"
+        android:text="Hello this is my second" />
+      <TextView
+        android:id="@+id/text_view_id"
+        android:layout_width="157dp"
+        android:layout_height="500dp"
+        android:background="@color/blue"
+        android:textColor="@color/red"
+        android:layout_marginBottom="10dp"
+        android:textSize="100dp"
+        android:text="hello" />
+    </TableLayout>
+</ScrollView>
