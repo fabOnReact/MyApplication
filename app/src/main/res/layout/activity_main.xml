@@ -1,40 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!DOCTYPE RelativeLayout>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:fillViewport="true">
-    <TableLayout
-       xmlns:android="http://schemas.android.com/apk/res/android"
-      android:id="@+id/linear_layout"
-       android:layout_width="match_parent"
-       android:layout_height="match_parent">
-      <TextView
-        android:id="@+id/text_view_id"
-        android:layout_width="157dp"
-        android:layout_height="500dp"
-        android:layout_marginBottom="10dp"
-        android:background="@color/blue"
-        android:text="Hello this is my first"
-        android:textColor="@color/red"
-        android:textSize="100dp" />
-      <TextView
-        android:id="@+id/text_view_id"
-        android:layout_width="157dp"
-        android:layout_height="500dp"
-        android:background="@color/blue"
-        android:textColor="@color/red"
-        android:layout_marginBottom="10dp"
-        android:textSize="100dp"
-        android:text="Hello this is my second" />
-      <TextView
-        android:id="@+id/text_view_id"
-        android:layout_width="157dp"
-        android:layout_height="500dp"
-        android:background="@color/blue"
-        android:textColor="@color/red"
-        android:layout_marginBottom="10dp"
-        android:textSize="100dp"
-        android:text="hello" />
-    </TableLayout>
-</ScrollView>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridView1"
+    android:numColumns="3"
+    android:gravity="center"
+    android:columnWidth="50dp"
+    android:stretchMode="columnWidth"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+ 
+</GridView>
